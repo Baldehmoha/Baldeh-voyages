@@ -1,0 +1,91 @@
+.menu {
+  background-color: #0097b2;
+}
+.sect1 {
+  background-image: url("https://img.freepik.com/photos-gratuite/concept-voyage-complet-points-repere_23-2149153258.jpg?size=626&ext=jpg&uid=R100485527&ga=GA1.2.399072530.1682338201&semt=sph");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h5 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-size: 30px;
+}
+.footer {
+  background-color: black;
+}
+
+.footercontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  color: var(--secondary-color);
+  color: blanchedalmond;
+}
+
+.footercol h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footercol h3 span {
+  color: var(--primary-color);
+}
+
+.footercol p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footercol p:hover {
+  color: var(--primary-color);
+}
+
+.footercol p span {
+  font-weight: 600;
+}
+
+.footercol h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footerbar {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  border-top: 1px solid var(--text-light);
+  color: blanchedalmond;
+}
+.sect2 {
+  background-image: url(Avion.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+.nav-item a {
+  color: white;
+}
+.sect4 {
+  background-image: url(connecter.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+h6 {
+  font-size: 40px;
+}
